@@ -1,0 +1,4 @@
+20220706
+    create new project - pull from github
+    commit success
+
