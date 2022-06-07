@@ -1,5 +1,9 @@
 20220706
     create new project - pull from github
     commit success
+    add interpreter python 3.8
+    add package (selenium, robotframework, robotframeork-seleniumlibrary)
+
+    --- unversioned files (venv files) can't commit
 
 
