@@ -1,0 +1,28 @@
+20220706
+    create new project - pull from github
+    commit success
+    add interpreter python 3.8
+    add package (selenium, robotframework, robotframework-seleniumlibrary)
+    --- intellij / intellibot plugins install error during pycharm reboot (need to renew pycharm)
+    --- unversioned files (venv files) can't commit (solved)
+
+How to run...
+    Make pull request from Git using this link: https://github.com/alfannza/vouchtt2022
+    Python Virtual Environment is included in the Git, using python 3.8
+    I am using Pycharm Community Edition 2021.1 (June 2021)
+    Make sure all the package been installed in this python version (selenium, robotframework, robotframework-seleniumlibrary)
+    Run the file "robot TC001.robot" using terminal
+
+Test Result
+    TC Total : 8
+    TC Passed : 7
+    TC Failed : 1
+
+    TC Failed, TC number 5:
+    When user program input "hello" (all lowercase) on the widget the reply was incorrect.
+    Expected : Widget reply with "hello!"
+    Actual : Widget seem not recognize the "hello" message and reply with another long message instead
+
+
+
+
