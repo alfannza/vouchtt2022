@@ -5,6 +5,8 @@
     add package (selenium, robotframework, robotframework-seleniumlibrary)
     --- intellij / intellibot plugins install error during pycharm reboot (need to renew pycharm)
     --- unversioned files (venv files) can't commit (solved)
+    --- plugin error visit this: https://github.com/lte2000/intellibot/blob/develop/intellibot.jar
+    then add via File/Settings/Plugin, select Install plugin from disk
 
 How to run...
     Make pull request from Git using this link: https://github.com/alfannza/vouchtt2022
