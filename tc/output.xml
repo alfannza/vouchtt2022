@@ -1,329 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.4 on win32)" generated="20220613 10:11:55.706" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.4 on win32)" generated="20220622 15:19:29.121" rpa="false" schemaversion="3">
 <suite id="s1" name="TC001" source="C:\Users\alfan\PycharmProjects\vouchtt2022\tc\TC001.robot">
 <test id="s1-t1" name="TC-000_Browser_Setup" line="19">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>https://vouch-public.github.io/sdet-interview/</arg>
 <arg>Chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220613 10:11:56.060" level="INFO">Opening browser 'Chrome' to base url 'https://vouch-public.github.io/sdet-interview/'.</msg>
-<status status="PASS" starttime="20220613 10:11:56.060" endtime="20220613 10:11:59.039"/>
+<msg timestamp="20220622 15:19:29.379" level="INFO">Opening browser 'Chrome' to base url 'https://vouch-public.github.io/sdet-interview/'.</msg>
+<status status="PASS" starttime="20220622 15:19:29.378" endtime="20220622 15:19:32.013"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20220613 10:11:59.039" endtime="20220613 10:11:59.152"/>
+<status status="PASS" starttime="20220622 15:19:32.014" endtime="20220622 15:19:32.164"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220613 10:12:04.159" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20220613 10:11:59.152" endtime="20220613 10:12:04.159"/>
+<msg timestamp="20220622 15:19:37.173" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220622 15:19:32.165" endtime="20220622 15:19:37.173"/>
 </kw>
-<status status="PASS" starttime="20220613 10:11:56.059" endtime="20220613 10:12:04.159"/>
+<status status="PASS" starttime="20220622 15:19:29.378" endtime="20220622 15:19:37.173"/>
 </test>
 <test id="s1-t2" name="TC-001_Chat_Open_Button" line="24">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${widget_open_btn_loc}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220613 10:12:04.161" level="INFO">Clicking element 'id:widget-activator'.</msg>
-<status status="PASS" starttime="20220613 10:12:04.161" endtime="20220613 10:12:04.217"/>
+<msg timestamp="20220622 15:19:37.176" level="INFO">Clicking element 'id:widget-activator'.</msg>
+<status status="PASS" starttime="20220622 15:19:37.175" endtime="20220622 15:19:37.250"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220613 10:12:06.231" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220613 10:12:04.218" endtime="20220613 10:12:06.231"/>
+<msg timestamp="20220622 15:19:39.253" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220622 15:19:37.250" endtime="20220622 15:19:39.253"/>
 </kw>
 <kw name="Select Frame" library="SeleniumLibrary">
 <arg>${widget_frame_loc}</arg>
 <doc>Sets frame identified by ``locator`` as the current frame.</doc>
-<msg timestamp="20220613 10:12:06.232" level="INFO">Selecting frame 'id:vc-chat-iframe'.</msg>
-<status status="PASS" starttime="20220613 10:12:06.231" endtime="20220613 10:12:06.253"/>
+<msg timestamp="20220622 15:19:39.255" level="INFO">Selecting frame 'id:vc-chat-iframe'.</msg>
+<status status="PASS" starttime="20220622 15:19:39.254" endtime="20220622 15:19:39.299"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220613 10:12:09.269" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220613 10:12:06.254" endtime="20220613 10:12:09.269"/>
+<msg timestamp="20220622 15:19:42.314" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220622 15:19:39.300" endtime="20220622 15:19:42.314"/>
 </kw>
 <kw name="Element Should Be Visible" library="SeleniumLibrary">
 <arg>${widget_open_img_loc}</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<msg timestamp="20220613 10:12:09.340" level="INFO">Element 'xpath://*[@id="app"]/div/div[1]/div' is displayed.</msg>
-<status status="PASS" starttime="20220613 10:12:09.270" endtime="20220613 10:12:09.340"/>
+<msg timestamp="20220622 15:19:42.344" level="INFO">Element 'xpath://*[@id="app"]/div/div[1]/div' is displayed.</msg>
+<status status="PASS" starttime="20220622 15:19:42.314" endtime="20220622 15:19:42.344"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220613 10:12:12.348" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220613 10:12:09.340" endtime="20220613 10:12:12.348"/>
+<msg timestamp="20220622 15:19:45.347" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220622 15:19:42.344" endtime="20220622 15:19:45.347"/>
 </kw>
-<status status="PASS" starttime="20220613 10:12:04.160" endtime="20220613 10:12:12.348"/>
+<status status="PASS" starttime="20220622 15:19:37.175" endtime="20220622 15:19:45.348"/>
 </test>
 <test id="s1-t3" name="TC-002_Chat_Panel_Title_Check" line="37">
 <kw name="Element Should Contain" library="SeleniumLibrary">
 <arg>${widget_title_loc}</arg>
 <arg>Vouch Widget</arg>
 <doc>Verifies that element ``locator`` contains text ``expected``.</doc>
-<msg timestamp="20220613 10:12:12.377" level="INFO">Element 'xpath://*[@id="app"]/div/div[1]/div/div[2]' contains text 'Vouch Widget'.</msg>
-<status status="PASS" starttime="20220613 10:12:12.350" endtime="20220613 10:12:12.377"/>
+<msg timestamp="20220622 15:19:45.380" level="INFO">Element 'xpath://*[@id="app"]/div/div[1]/div/div[2]' contains text 'Vouch Widget'.</msg>
+<status status="PASS" starttime="20220622 15:19:45.352" endtime="20220622 15:19:45.380"/>
 </kw>
-<status status="PASS" starttime="20220613 10:12:12.350" endtime="20220613 10:12:12.378"/>
+<status status="PASS" starttime="20220622 15:19:45.350" endtime="20220622 15:19:45.380"/>
 </test>
 <test id="s1-t4" name="TC-003_Chat_Panel_Minimize_Button" line="41">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${widget_minimize_btn_loc}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220613 10:12:12.380" level="INFO">Clicking element 'xpath://*[@id="app"]/div/div[1]/div/div[3]'.</msg>
-<status status="PASS" starttime="20220613 10:12:12.379" endtime="20220613 10:12:12.455"/>
+<msg timestamp="20220622 15:19:45.382" level="INFO">Clicking element 'xpath://*[@id="app"]/div/div[1]/div/div[3]'.</msg>
+<status status="PASS" starttime="20220622 15:19:45.382" endtime="20220622 15:19:45.486"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220613 10:12:14.456" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220613 10:12:12.456" endtime="20220613 10:12:14.456"/>
+<msg timestamp="20220622 15:19:47.496" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220622 15:19:45.486" endtime="20220622 15:19:47.496"/>
 </kw>
 <kw name="Element Should Not Be Visible" library="SeleniumLibrary">
 <arg>${widget_title_loc}</arg>
 <doc>Verifies that the element identified by ``locator`` is NOT visible.</doc>
-<msg timestamp="20220613 10:12:14.474" level="INFO">Element 'xpath://*[@id="app"]/div/div[1]/div/div[2]' exists but is not displayed.</msg>
-<status status="PASS" starttime="20220613 10:12:14.456" endtime="20220613 10:12:14.474"/>
+<msg timestamp="20220622 15:19:47.516" level="INFO">Element 'xpath://*[@id="app"]/div/div[1]/div/div[2]' exists but is not displayed.</msg>
+<status status="PASS" starttime="20220622 15:19:47.496" endtime="20220622 15:19:47.517"/>
 </kw>
-<status status="PASS" starttime="20220613 10:12:12.379" endtime="20220613 10:12:14.475"/>
+<status status="PASS" starttime="20220622 15:19:45.382" endtime="20220622 15:19:47.517"/>
 </test>
 <test id="s1-t5" name="TC-004_Get_Started_Button_Should_Start_Conversation" line="49">
 <kw name="Unselect Frame" library="SeleniumLibrary">
 <doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" starttime="20220613 10:12:14.476" endtime="20220613 10:12:14.478"/>
+<status status="PASS" starttime="20220622 15:19:47.519" endtime="20220622 15:19:47.522"/>
 </kw>
 <kw name="Delete All Cookies" library="SeleniumLibrary">
 <doc>Deletes all cookies.</doc>
-<status status="PASS" starttime="20220613 10:12:14.478" endtime="20220613 10:12:14.482"/>
+<status status="PASS" starttime="20220622 15:19:47.523" endtime="20220622 15:19:47.528"/>
 </kw>
 <kw name="Execute Javascript" library="SeleniumLibrary">
 <arg>localStorage.clear();</arg>
 <doc>Executes the given JavaScript code with possible arguments.</doc>
-<msg timestamp="20220613 10:12:14.483" level="INFO">Executing JavaScript:
+<msg timestamp="20220622 15:19:47.530" level="INFO">Executing JavaScript:
 localStorage.clear();
 Without any arguments.</msg>
-<status status="PASS" starttime="20220613 10:12:14.483" endtime="20220613 10:12:14.487"/>
+<status status="PASS" starttime="20220622 15:19:47.529" endtime="20220622 15:19:47.534"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${widget_open_btn_loc}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220613 10:12:14.487" level="INFO">Clicking element 'id:widget-activator'.</msg>
-<status status="PASS" starttime="20220613 10:12:14.487" endtime="20220613 10:12:14.509"/>
+<msg timestamp="20220622 15:19:47.535" level="INFO">Clicking element 'id:widget-activator'.</msg>
+<status status="PASS" starttime="20220622 15:19:47.535" endtime="20220622 15:19:47.566"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220613 10:12:16.510" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220613 10:12:14.509" endtime="20220613 10:12:16.510"/>
+<msg timestamp="20220622 15:19:49.568" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220622 15:19:47.567" endtime="20220622 15:19:49.569"/>
 </kw>
 <kw name="Select Frame" library="SeleniumLibrary">
 <arg>${widget_frame_loc}</arg>
 <doc>Sets frame identified by ``locator`` as the current frame.</doc>
-<msg timestamp="20220613 10:12:16.512" level="INFO">Selecting frame 'id:vc-chat-iframe'.</msg>
-<status status="PASS" starttime="20220613 10:12:16.511" endtime="20220613 10:12:16.535"/>
+<msg timestamp="20220622 15:19:49.570" level="INFO">Selecting frame 'id:vc-chat-iframe'.</msg>
+<status status="PASS" starttime="20220622 15:19:49.569" endtime="20220622 15:19:49.596"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220613 10:12:19.547" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220613 10:12:16.535" endtime="20220613 10:12:19.547"/>
+<msg timestamp="20220622 15:19:52.612" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220622 15:19:49.597" endtime="20220622 15:19:52.612"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${widget_get_started_btn_loc}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220613 10:12:19.548" level="INFO">Clicking element 'xpath://*[@id="app"]/div/div[3]/div/div'.</msg>
-<status status="PASS" starttime="20220613 10:12:19.547" endtime="20220613 10:12:19.605"/>
+<msg timestamp="20220622 15:19:52.613" level="INFO">Clicking element 'xpath://*[@id="app"]/div/div[3]/div/div'.</msg>
+<status status="PASS" starttime="20220622 15:19:52.612" endtime="20220622 15:19:52.700"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220613 10:12:24.609" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20220613 10:12:19.606" endtime="20220613 10:12:24.609"/>
+<msg timestamp="20220622 15:19:57.706" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220622 15:19:52.701" endtime="20220622 15:19:57.706"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${widget_last_msg_bot_loc}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20220613 10:12:24.610" endtime="20220613 10:12:24.631"/>
+<status status="PASS" starttime="20220622 15:19:57.708" endtime="20220622 15:19:57.735"/>
 </kw>
 <kw name="Element Text Should Not Be" library="SeleniumLibrary">
 <arg>${widget_last_msg_bot_loc}</arg>
 <arg>${EMPTY}</arg>
 <doc>Verifies that element ``locator`` does not contain exact the text ``not_expected``.</doc>
-<msg timestamp="20220613 10:12:24.633" level="INFO">Verifying element 'xpath:(//div[@class="vc-message-text-bubble"])[last()]' does not contain exact text ''.</msg>
-<status status="PASS" starttime="20220613 10:12:24.632" endtime="20220613 10:12:24.649"/>
+<msg timestamp="20220622 15:19:57.737" level="INFO">Verifying element 'xpath:(//div[@class="vc-message-text-bubble"])[last()]' does not contain exact text ''.</msg>
+<status status="PASS" starttime="20220622 15:19:57.736" endtime="20220622 15:19:57.760"/>
 </kw>
 <kw name="Element Should Contain" library="SeleniumLibrary">
 <arg>${widget_last_msg_bot_loc}</arg>
 <arg>Hi! How are you?</arg>
 <doc>Verifies that element ``locator`` contains text ``expected``.</doc>
-<msg timestamp="20220613 10:12:24.661" level="INFO">Element 'xpath:(//div[@class="vc-message-text-bubble"])[last()]' contains text 'Hi! How are you?'.</msg>
-<status status="PASS" starttime="20220613 10:12:24.649" endtime="20220613 10:12:24.661"/>
+<msg timestamp="20220622 15:19:57.779" level="INFO">Element 'xpath:(//div[@class="vc-message-text-bubble"])[last()]' contains text 'Hi! How are you?'.</msg>
+<status status="PASS" starttime="20220622 15:19:57.761" endtime="20220622 15:19:57.779"/>
 </kw>
-<status status="PASS" starttime="20220613 10:12:14.475" endtime="20220613 10:12:24.661"/>
+<status status="PASS" starttime="20220622 15:19:47.518" endtime="20220622 15:19:57.779"/>
 </test>
 <test id="s1-t6" name="TC-005_Sending_Hello_Message" line="74">
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${widget_input_loc}</arg>
 <arg>hello</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20220613 10:12:24.663" level="INFO">Typing text 'hello' into text field 'xpath://*[@id="app"]/div/div[3]/div/div[1]/input'.</msg>
-<status status="PASS" starttime="20220613 10:12:24.662" endtime="20220613 10:12:24.730"/>
+<msg timestamp="20220622 15:19:57.782" level="INFO">Typing text 'hello' into text field 'xpath://*[@id="app"]/div/div[3]/div/div[1]/input'.</msg>
+<status status="PASS" starttime="20220622 15:19:57.781" endtime="20220622 15:19:57.882"/>
 </kw>
 <kw name="Press Keys" library="SeleniumLibrary">
 <arg>${widget_input_loc}</arg>
 <arg>\ue006</arg>
 <doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
-<msg timestamp="20220613 10:12:24.741" level="INFO">Sending key(s) ('\ue006',) to xpath://*[@id="app"]/div/div[3]/div/div[1]/input element.</msg>
-<msg timestamp="20220613 10:12:25.048" level="INFO">Sending key </msg>
-<status status="PASS" starttime="20220613 10:12:24.730" endtime="20220613 10:12:25.058"/>
+<msg timestamp="20220622 15:19:57.883" level="INFO">Sending key(s) ('\ue006',) to xpath://*[@id="app"]/div/div[3]/div/div[1]/input element.</msg>
+<msg timestamp="20220622 15:19:58.189" level="INFO">Sending key </msg>
+<status status="PASS" starttime="20220622 15:19:57.882" endtime="20220622 15:19:58.216"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>4</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220613 10:12:29.071" level="INFO">Slept 4 seconds</msg>
-<status status="PASS" starttime="20220613 10:12:25.058" endtime="20220613 10:12:29.071"/>
+<msg timestamp="20220622 15:20:02.219" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20220622 15:19:58.219" endtime="20220622 15:20:02.219"/>
 </kw>
 <kw name="Element Should Contain" library="SeleniumLibrary">
 <arg>${widget_last_msg_bot_loc}</arg>
 <arg>hello!</arg>
 <doc>Verifies that element ``locator`` contains text ``expected``.</doc>
-<msg timestamp="20220613 10:12:29.194" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg timestamp="20220613 10:12:29.194" level="FAIL">Element 'xpath:(//div[@class="vc-message-text-bubble"])[last()]' should have contained text 'hello!' but its text was 'You probably want to redirect them to another appropriate block.'.</msg>
-<status status="FAIL" starttime="20220613 10:12:29.072" endtime="20220613 10:12:29.217"/>
+<msg timestamp="20220622 15:20:02.352" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220622 15:20:02.353" level="FAIL">Element 'xpath:(//div[@class="vc-message-text-bubble"])[last()]' should have contained text 'hello!' but its text was 'You probably want to redirect them to another appropriate block.'.</msg>
+<status status="FAIL" starttime="20220622 15:20:02.219" endtime="20220622 15:20:02.356"/>
 </kw>
-<status status="FAIL" starttime="20220613 10:12:24.662" endtime="20220613 10:12:29.218">Element 'xpath:(//div[@class="vc-message-text-bubble"])[last()]' should have contained text 'hello!' but its text was 'You probably want to redirect them to another appropriate block.'.</status>
+<status status="FAIL" starttime="20220622 15:19:57.780" endtime="20220622 15:20:02.356">Element 'xpath:(//div[@class="vc-message-text-bubble"])[last()]' should have contained text 'hello!' but its text was 'You probably want to redirect them to another appropriate block.'.</status>
 </test>
 <test id="s1-t7" name="TC-006_Click_Bottom_Button_Should_Trigger_Message" line="83">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${widget_hello_btn_loc}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220613 10:12:29.220" level="INFO">Clicking element 'xpath://span[@class="material-design-icon wrench-icon"]'.</msg>
-<status status="PASS" starttime="20220613 10:12:29.220" endtime="20220613 10:12:29.278"/>
+<msg timestamp="20220622 15:20:02.359" level="INFO">Clicking element 'xpath://span[@class="material-design-icon wrench-icon"]'.</msg>
+<status status="PASS" starttime="20220622 15:20:02.359" endtime="20220622 15:20:02.438"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220613 10:12:32.285" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220613 10:12:29.278" endtime="20220613 10:12:32.285"/>
+<msg timestamp="20220622 15:20:05.453" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220622 15:20:02.439" endtime="20220622 15:20:05.453"/>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>${widget_last_msg_me_loc}</arg>
 <arg>Hello</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20220613 10:12:32.286" level="INFO">Verifying element 'xpath:(//div[@class="vc-message-text-bubble me"])[last()]' contains exact text 'Hello'.</msg>
-<status status="PASS" starttime="20220613 10:12:32.285" endtime="20220613 10:12:32.305"/>
+<msg timestamp="20220622 15:20:05.454" level="INFO">Verifying element 'xpath:(//div[@class="vc-message-text-bubble me"])[last()]' contains exact text 'Hello'.</msg>
+<status status="PASS" starttime="20220622 15:20:05.453" endtime="20220622 15:20:05.480"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220613 10:12:35.319" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220613 10:12:32.305" endtime="20220613 10:12:35.319"/>
+<msg timestamp="20220622 15:20:08.493" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220622 15:20:05.480" endtime="20220622 15:20:08.493"/>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>${widget_last_msg_bot_loc}</arg>
 <arg>hello!</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20220613 10:12:35.320" level="INFO">Verifying element 'xpath:(//div[@class="vc-message-text-bubble"])[last()]' contains exact text 'hello!'.</msg>
-<status status="PASS" starttime="20220613 10:12:35.319" endtime="20220613 10:12:35.338"/>
+<msg timestamp="20220622 15:20:08.494" level="INFO">Verifying element 'xpath:(//div[@class="vc-message-text-bubble"])[last()]' contains exact text 'hello!'.</msg>
+<status status="PASS" starttime="20220622 15:20:08.494" endtime="20220622 15:20:08.522"/>
 </kw>
-<status status="PASS" starttime="20220613 10:12:29.219" endtime="20220613 10:12:35.339"/>
+<status status="PASS" starttime="20220622 15:20:02.358" endtime="20220622 15:20:08.522"/>
 </test>
 <test id="s1-t8" name="TC-007_Widget_Should_Reply_With_What" line="95">
 <kw name="Element Should Be Visible" library="SeleniumLibrary">
 <arg>${widget_what_btn_loc}</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<msg timestamp="20220613 10:12:35.360" level="INFO">Element 'xpath://div[@class="message-button"][text()=" What "]' is displayed.</msg>
-<status status="PASS" starttime="20220613 10:12:35.342" endtime="20220613 10:12:35.360"/>
+<msg timestamp="20220622 15:20:08.550" level="INFO">Element 'xpath://div[@class="message-button"][text()=" What "]' is displayed.</msg>
+<status status="PASS" starttime="20220622 15:20:08.524" endtime="20220622 15:20:08.550"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${widget_what_btn_loc}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220613 10:12:35.360" level="INFO">Clicking element 'xpath://div[@class="message-button"][text()=" What "]'.</msg>
-<status status="PASS" starttime="20220613 10:12:35.360" endtime="20220613 10:12:35.427"/>
+<msg timestamp="20220622 15:20:08.551" level="INFO">Clicking element 'xpath://div[@class="message-button"][text()=" What "]'.</msg>
+<status status="PASS" starttime="20220622 15:20:08.551" endtime="20220622 15:20:08.641"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220613 10:12:40.439" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20220613 10:12:35.428" endtime="20220613 10:12:40.439"/>
+<msg timestamp="20220622 15:20:13.655" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220622 15:20:08.641" endtime="20220622 15:20:13.655"/>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>${widget_last_msg_bot_loc}</arg>
 <arg>what ?</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20220613 10:12:40.440" level="INFO">Verifying element 'xpath:(//div[@class="vc-message-text-bubble"])[last()]' contains exact text 'what ?'.</msg>
-<status status="PASS" starttime="20220613 10:12:40.439" endtime="20220613 10:12:40.457"/>
+<msg timestamp="20220622 15:20:13.657" level="INFO">Verifying element 'xpath:(//div[@class="vc-message-text-bubble"])[last()]' contains exact text 'what ?'.</msg>
+<status status="PASS" starttime="20220622 15:20:13.656" endtime="20220622 15:20:13.680"/>
 </kw>
-<status status="PASS" starttime="20220613 10:12:35.341" endtime="20220613 10:12:40.459"/>
+<status status="PASS" starttime="20220622 15:20:08.524" endtime="20220622 15:20:13.681"/>
 </test>
 <test id="s1-t9" name="TC-008_Widget_Retains_Conversation" line="104">
 <kw name="Reload Page" library="SeleniumLibrary">
 <doc>Simulates user reloading page.</doc>
-<status status="PASS" starttime="20220613 10:12:40.459" endtime="20220613 10:12:40.465"/>
+<status status="PASS" starttime="20220622 15:20:13.684" endtime="20220622 15:20:13.697"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220613 10:12:43.468" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220613 10:12:40.466" endtime="20220613 10:12:43.468"/>
+<msg timestamp="20220622 15:20:16.706" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220622 15:20:13.698" endtime="20220622 15:20:16.707"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${widget_open_btn_loc}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20220613 10:12:43.468" endtime="20220613 10:12:43.493"/>
+<status status="PASS" starttime="20220622 15:20:16.708" endtime="20220622 15:20:16.745"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${widget_open_btn_loc}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220613 10:12:43.494" level="INFO">Clicking element 'id:widget-activator'.</msg>
-<status status="PASS" starttime="20220613 10:12:43.493" endtime="20220613 10:12:43.523"/>
+<msg timestamp="20220622 15:20:16.746" level="INFO">Clicking element 'id:widget-activator'.</msg>
+<status status="PASS" starttime="20220622 15:20:16.745" endtime="20220622 15:20:16.787"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220613 10:12:45.538" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20220613 10:12:43.523" endtime="20220613 10:12:45.538"/>
+<msg timestamp="20220622 15:20:18.797" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220622 15:20:16.787" endtime="20220622 15:20:18.797"/>
 </kw>
 <kw name="Select Frame" library="SeleniumLibrary">
 <arg>${widget_frame_loc}</arg>
 <doc>Sets frame identified by ``locator`` as the current frame.</doc>
-<msg timestamp="20220613 10:12:45.539" level="INFO">Selecting frame 'id:vc-chat-iframe'.</msg>
-<status status="PASS" starttime="20220613 10:12:45.538" endtime="20220613 10:12:45.561"/>
+<msg timestamp="20220622 15:20:18.798" level="INFO">Selecting frame 'id:vc-chat-iframe'.</msg>
+<status status="PASS" starttime="20220622 15:20:18.797" endtime="20220622 15:20:18.825"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>6</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220613 10:12:51.572" level="INFO">Slept 6 seconds</msg>
-<status status="PASS" starttime="20220613 10:12:45.562" endtime="20220613 10:12:51.572"/>
+<msg timestamp="20220622 15:20:24.829" level="INFO">Slept 6 seconds</msg>
+<status status="PASS" starttime="20220622 15:20:18.825" endtime="20220622 15:20:24.829"/>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>${widget_last_msg_me_loc}</arg>
 <arg>What</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20220613 10:12:51.573" level="INFO">Verifying element 'xpath:(//div[@class="vc-message-text-bubble me"])[last()]' contains exact text 'What'.</msg>
-<status status="PASS" starttime="20220613 10:12:51.572" endtime="20220613 10:12:51.593"/>
+<msg timestamp="20220622 15:20:24.831" level="INFO">Verifying element 'xpath:(//div[@class="vc-message-text-bubble me"])[last()]' contains exact text 'What'.</msg>
+<status status="PASS" starttime="20220622 15:20:24.829" endtime="20220622 15:20:24.860"/>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>${widget_last_msg_bot_loc}</arg>
 <arg>what ?</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20220613 10:12:51.594" level="INFO">Verifying element 'xpath:(//div[@class="vc-message-text-bubble"])[last()]' contains exact text 'what ?'.</msg>
-<status status="PASS" starttime="20220613 10:12:51.593" endtime="20220613 10:12:51.612"/>
+<msg timestamp="20220622 15:20:24.861" level="INFO">Verifying element 'xpath:(//div[@class="vc-message-text-bubble"])[last()]' contains exact text 'what ?'.</msg>
+<status status="PASS" starttime="20220622 15:20:24.860" endtime="20220622 15:20:24.886"/>
 </kw>
-<status status="PASS" starttime="20220613 10:12:40.459" endtime="20220613 10:12:51.612"/>
+<status status="PASS" starttime="20220622 15:20:13.682" endtime="20220622 15:20:24.888"/>
 </test>
 <test id="s1-t10" name="TC-ZZZ_Browser_Close" line="122">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20220613 10:12:51.614" endtime="20220613 10:12:53.755"/>
+<status status="PASS" starttime="20220622 15:20:24.890" endtime="20220622 15:20:27.142"/>
 </kw>
-<status status="PASS" starttime="20220613 10:12:51.614" endtime="20220613 10:12:53.756"/>
+<status status="PASS" starttime="20220622 15:20:24.890" endtime="20220622 15:20:27.143"/>
 </test>
-<status status="FAIL" starttime="20220613 10:11:55.707" endtime="20220613 10:12:53.759"/>
+<status status="FAIL" starttime="20220622 15:19:29.122" endtime="20220622 15:20:27.144"/>
 </suite>
 <statistics>
 <total>
